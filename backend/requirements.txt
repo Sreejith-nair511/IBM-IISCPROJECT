@@ -6,6 +6,5 @@ pydantic==2.11.7
 python-dotenv==1.0.1
 python-multipart==0.0.20
 starlette==0.41.2
-asyncio-mqtt==0.17.2
 dnspython==2.7.0
 email-validator==2.2.0
