@@ -392,8 +392,8 @@ class DigitalSarpanchTester:
     def test_error_handling(self):
         """Test error handling for invalid requests"""
         error_tests = [
-            ("Invalid Village ID", f"{self.base_url}/villages/invalid-id", "GET"),
-            ("Invalid Alert ID", f"{self.base_url}/alerts/invalid-id/dismiss", "PATCH"),
+            ("Invalid Village ID", f"{self.base_url}/villages/invalid-id", "GET", None),
+            ("Invalid Alert ID", f"{self.base_url}/alerts/invalid-id/dismiss", "PATCH", None),
             ("Invalid Simulation", f"{self.base_url}/simulate/trigger", "POST", {"scenario": "invalid", "village_id": "invalid"})
         ]
         
