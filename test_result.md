@@ -305,10 +305,16 @@ metadata:
   run_ui: false
 
 test_plan:
-  current_focus: []
+  current_focus:
+    - "Dashboard Page Functionality"
+    - "Village Map Page Functionality"
+    - "Alerts Page Functionality"
+    - "Navigation and Language Switching"
+    - "Voice Alert System"
+    - "Alert Context and Real-time Updates"
   stuck_tasks: []
-  test_all: false
-  test_priority: "completed"
+  test_all: true
+  test_priority: "high_first"
 
 agent_communication:
     - agent: "testing"
